@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffeehouse MOTHERGOOSE | 嬬恋村の小さなログハウスカフェ</title>
+    <meta name="description" content="群馬県嬬恋村にある小さなログハウスのコーヒーハウス。薪ストーブを囲みながら、こだわりのコーヒーとピザをお楽しみください。クラフトギャラリー併設。ペット同伴OK。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-main">MOTHERGOOSE</span>
+                <span class="logo-sub">coffeehouse</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#access" class="nav-link">Access</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-eyebrow">— Tsumagoi, Gunma —</p>
+                <h1 class="hero-title">coffeehouse<br>MOTHERGOOSE</h1>
+                <p class="hero-subtitle">森の中の小さなログハウスカフェ</p>
+                <a href="#about" class="btn btn-primary">Story を読む</a>
+            </div>
+            <div class="hero-scroll-hint">
+                <span>scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container about-container">
+                <div class="about-text">
+                    <p class="section-eyebrow">Our Story</p>
+                    <h2 class="section-title">薪ストーブを囲んで、<br>ゆったりと。</h2>
+                    <p>嬬恋村の豊かな自然の中にたたずむ、わずか6席の小さなログハウスカフェです。L字型のログテーブルを囲んで、薪ストーブの温もりとともにコーヒーを楽しむ——そんな特別なひとときをお届けします。</p>
+                    <p>オープンテラスでは、高原の澄んだ空気と緑に包まれながら、大切なペットと一緒にくつろぐこともできます。</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">🪵</span>
+                            <span class="feature-text">ログハウス</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🐾</span>
+                            <span class="feature-text">ペット同伴OK</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">♿</span>
+                            <span class="feature-text">バリアフリー</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🎨</span>
+                            <span class="feature-text">ギャラリー併設</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./assets/exterior-sign.jpg" alt="MOTHER GOOSEの外観と看板">
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section menu-section">
+            <div class="container">
+                <p class="section-eyebrow text-center">Menu</p>
+                <h2 class="section-title text-center">こだわりの一杯と<br>焼きたてピザ</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="card-image-wrap">
+                            <img src="./assets/coffee-beans.jpg" alt="こだわりのコーヒー豆" class="card-img">
+                        </div>
+                        <div class="card-icon">☕</div>
+                        <h3>Coffee</h3>
+                        <p class="menu-description">丁寧にハンドドリップで淹れるコーヒー。豊かな香りとともに、くつろぎのひとときをお楽しみください。</p>
+                    </div>
+                    <div class="menu-card">
+                        <div class="card-image-wrap">
+                            <img src="./assets/pizza.png" alt="ピザ" class="card-img">
+                        </div>
+                        <div class="card-icon">🍕</div>
+                        <h3>Pizza</h3>
+                        <p class="menu-description">8種類の手作りピザをご用意しています。森の中で味わう焼きたてピザは格別です。</p>
+                    </div>
+                </div>
+                <p class="menu-note text-center">※季節や仕入れ状況によりメニュー内容が変わる場合がございます。</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <p class="section-eyebrow text-center">Craft Gallery</p>
+                <h2 class="section-title text-center">手づくりの温もり</h2>
+                <p class="gallery-description text-center">店内にはクラフトギャラリーを常設。手作りのオルゴールやガラス細工など、ひとつひとつ心を込めた作品をご覧いただけます。予約制でクラフト教室も開催しています。</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-item-large">
+                        <img src="./assets/interior.jpg" alt="店内の風景">
+                        <div class="gallery-overlay">
+                            <span>Interior</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./assets/building.jpg" alt="お店の外観">
+                        <div class="gallery-overlay">
+                            <span>Exterior</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./assets/exterior-sign.jpg" alt="MOTHER GOOSEの看板">
+                        <div class="gallery-overlay">
+                            <span>Sign</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Access Section -->
+        <section id="access" class="section access-section">
+            <div class="container">
+                <p class="section-eyebrow text-center">Access</p>
+                <h2 class="section-title text-center">お店のご案内</h2>
+                <div class="access-content">
+                    <div class="access-info">
+                        <h3>coffeehouse MOTHERGOOSE</h3>
+                        <div class="info-row">
+                            <span class="info-label">住所</span>
+                            <span class="info-value">〒377-1528<br>群馬県吾妻郡嬬恋村芦生田770-88</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">電話</span>
+                            <span class="info-value"><a href="tel:090-9322-3649">090-9322-3649</a></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">営業時間</span>
+                            <span class="info-value">10:00 〜 17:00</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">定休日</span>
+                            <span class="info-value">無休<br><small>※営業時間・定休日は変更となる場合がございます。</small></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">駐車場</span>
+                            <span class="info-value">小型車 3台</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">席数</span>
+                            <span class="info-value">6席 ＋ オープンテラス</span>
+                        </div>
+                        <p class="access-note">※座席数が限られておりますので、お越しの際はお気軽にお電話ください。</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.5!2d138.5607162!3d36.5234604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ddccd05dd7279%3A0x1a413847ec9b42c7!2scoffeehouse%20MOTHERGOOSE!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">MOTHERGOOSE</div>
+            <p class="footer-tagline">森の中の小さなログハウスカフェ</p>
+            <p class="footer-copy">&copy; 2026 coffeehouse MOTHERGOOSE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('open');
+        });
+        // Close nav on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('open');
+            });
+        });
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        // Scroll animations
+        const observerOptions = { threshold: 0.15, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.about-text, .about-image, .menu-card, .gallery-item, .access-content').forEach(el => {
+            el.classList.add('animate-on-scroll');
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
